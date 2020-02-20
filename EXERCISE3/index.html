@@ -1,82 +1,110 @@
 <!DOCTYPE html>
 <head>
     <link href="style.css" type="text/css" rel="stylesheet">
-
-        <div id="logo">
-            <img src="#">
-        </div>
-        <div id="nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Log in/Register</a></li>
-            </ul>
-        </div>
+    <div class="top" width=1>
+            <div id="logo">
+             <img src="IMAGE/logo.png">
+            </div>
+            <div class="navfull" height=50px>
+             <div id="nav" width=100%>
+               <ul>
+                 <li><a href="#">Log in</a></li>
+                 <li><a href="#">About Us</a></li>
+                 <li><a href="#">Home</a></li>
+               </ul>
+             </div>
+            </div>
+    </div>
 </head>
 <br>
 <body>
     <header>
-        <img src="IMAGE/banner2.jpg" width=100% heigh=720px>
-        <div id="bannertext">
-            <h1>Be Fashionable, Be Comfortable</h1>
-            <h2>Choose Your Style With Us!</h2>
+        <div class="bannerimage">
+            <img src="IMAGE/banneredit.jpg" width=80%>
         </div>
     </header>
     <br>
     <main>
-        <div id="male">
-            <div id="maintitle1">
-                <h2>Male Apparel</h2>
-            </div>    
-            <div id="male1">
-                <a href="#"><img src="IMAGE/male1.jpg" width=400px height=400px></a>
-                <h2>White Striped Shirt</h2>
-                <h2> Rp. 150.000</h2>
-            </div>
-            <div id="male2">
-                <a href="#"><img src="IMAGE/male2.jpg" width=400px height=400px></a>
-                <h2> Black and White Button Up</h2>
-                <h2> Rp. 170.000</h2>
-            </div>
-            <div id="male3">
-                <a href="#"><img src="IMAGE/male3.jpg" width=400px height=400px></a>
-                <h2> Black Sporty Jacket</h2>
-                <h2> Rp. 165.000</h2>
-            </div>
-            <div class="seemore">
-                <h3><a href="#">See Male Catalog</a></h3>
-            </div>
-        </div>
-        <hr>
-        <div id="female">
-            <div id="maintitle2">
-                <h2> Female Apparel</h2>
-            </div>
-            <div id="female1">
-                <a href="#"><img src="IMAGE/female1.jpg" width=400px height=400px></a>
-                <h2>Blue Floral Dress</h2>
-                <h2> Rp. 195.000</h2>
-            </div>
-            <div id="female2">
-                <a href="#"><img src="IMAGE/female2.jpg" width=400px height=400px></a>
-                <h2>Grey Long Jacket</h2>
-                <h2> Rp. 225.000</h2>
-            </div>
-            <div id="female3">
-                <a href="#"><img src="IMAGE/female3.jpg" width=400px height="400px"></a>
-                <h2> Transparent Bomber Jacket</h2>
-                <h2> Rp. 170.000</h2>
-            </div>
-            <div class="seemore">
-                <h3><a href="#"> See Female Catalog</a></h3>
-            </div>
-        </div>
+    <div class="font">
+     <table>
+         <table border="0">
+         <tr>
+                <td class="title" colspan="3"><h2>Male Apparel</h2></td>
+         </tr>
+         <tr>
+             <td>
+                 <a href="#">
+                    <img src="IMAGE/male1.jpg" width="400px" height="400px" class="pic">
+                    <h2 class="text">Striped Male Shirt</h2>
+                    <h2 class="price">Rp.150.000</h2>
+                 </a>
+            </td>
+            <td>
+                <a href="#">
+                    <img src="IMAGE/male2.jpg" width="400px" height="400px" class="pic">
+                    <h2 class="text">Black and White Button Up </h2>
+                     <h2 class="price">Rp.170.000</h2>
+                 </div>
+                </a>
+            </td>
+            <td>
+                <a href="#">
+                    <img src="IMAGE/male3.jpg" width="400px" height="400px">        
+                    <h2 class="text">Black Sporty Jacket</h2>                 
+                    <h2 class="price">Rp.165.000</h2>
+                 </div>
+                </a>
+            </td>
+         </tr>
+         <tr>
+             <td colspan="3">
+                 <a href="#"><h3>See Male Catalog ></h3></a>
+             </td>
+         </tr>
+     </table>
+    </div>
+<hr>
+    <div class="female">
+        <table>
+            <table border="0">
+            <tr>
+                   <td colspan="3" class="title"><h2>Female Apparel</h2></td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="#">
+                       <img src="IMAGE/female1.jpg" width="400px" height="400px" class="pic">
+                       <h2 class="text">Blue Floral Dress</h2>
+                       <h2 class="price">Rp.195.000</h2>
+                    </a>
+               </td>
+               <td>
+                   <a href="a">
+                       <img src="IMAGE/female2.jpg" width="400px" height="400px" class="pic">
+                       <h2 class="text">Grey Long Jacket</h2>
+                       <h2 class="price">Rp.225.000</h2>
+                    </a>
+               </td>
+               <td>
+                   <a href="#">
+                       <img src="IMAGE/female3.jpg" width="400px" height="400px" class="pic">
+                       <h2 class="text">Transparent Bomber Jacket</h2>
+                       <h2 class="price">Rp.170.000</h2>
+                    </a>
+               </td>
+            </tr>
+            <tr>
+                 <td colspan="3">
+                   <div class="seemore">
+                       <a href="#"><h3>See Female Catalog ></h3></a>
+                   </div>
+                 </td>
+               </tr>
+            </tr>
+        </table>    
+    </div>
     </main>
 </body>
 <footer>
-    <div id="logo2">
-        <img src="#">
-        <p> &copy; 2020 E-Commerce.com</p>
-    </div>
+        <p> &copy; 2020 E-Commerce.com</p>  
 </footer>
