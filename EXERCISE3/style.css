@@ -1,50 +1,77 @@
-
+.top{
+    background: black;
+    height: 200px;
+    margin-top: -40px;
+}
 ul li{
+    list-style: none;
     display: inline;
-    float: right;
-    margin: 20px 10px;
+    margin: 0 20px;
+    
 }
-#bannertext{
-    z-index: 2;
-    margin-top: -200px;
-    margin-bottom: 100px;
-    margin-left: 100px;
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
 }
-#maintitle1{
+ul{
+    padding: 0;
+}
+#logo img{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+#nav{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bannerimage img{
+    display: block;
+    margin: 0 auto;
+}
+.bannerimage img :hover{
+    color: rgba(0, 0, 0, 0.75);
+}
+body{
+    background-color: white;
+}
+
+.title h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    display: block;
+    width: 270px;
+    margin: 20px auto;
+    font-size: 32px;
+    text-transform: uppercase;
     text-align: center;
 }
-#male1{
-    float: left;
-    margin-right: 150px;
-}
-#male3{
-    float: right;
-    margin-top: -525px; 
+
+table{
+    margin: 0 auto;
 }
 
-.seemore{
-    float: right;
-    margin-top: -30px;
-    margin-right: 20px;
+.pic{
+    margin: 0 10px;
 }
 hr{
-    margin: 50px 0px
+    margin: 0 70px;
 }
-#maintitle2{
-    text-align: center;
-    margin-bottom: 50px;
-}
-#female1{
-    float:left;
-    margin-right:150px;
-}
-#female3{
-    float: right;
-    margin-top: -525px;
-}
-footer{
-    display: inline;
-}
-p{
-    text-align: right;
+
+.price{
+    color: black;
+    text-decoration: none;
+
 }
